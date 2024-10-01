@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_272147</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>112</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_272147</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>112</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|AAP13803.1|</Hit_id>
+  <Hit_def>developmentally regulated antigen 10.3 precursor [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>AAP13803</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>9.71091e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEEEFSRLINSMLKEYIEDKEQ--------LPNLQHQRQINDGTSDK---------TTPKPTTPKEQLPNLQH--------QRTTPKPTTPK</Hsp_qseq>
+      <Hsp_hseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEEEFSRLINSMLKEYIEDNKKDKHPTQKTTPKPTTPKQINDGTSDKTSDTHTIKRTTPKPTTPKQINDGTSDKTSDTHTIKRTTPKPTTPK</Hsp_hseq>
+      <Hsp_midline>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEEEFSRLINSMLKEYIED ++         P     +QINDGTSDK         TTPKPTTPK+               +RTTPKPTTPK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|P13492.1|</Hit_id>
+  <Hit_def>RecName: Full=Antigen 10-3; Flags: Precursor [Schistosoma mansoni] &gt;gb|AAA29855.1| antigen 10-3 [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>P13492</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.83148e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEEEFSRLINSMLKEYIEDKEQLPNLQHQRQ-----------------INDGTSDK---------TTPKPTTPKEQLPNLQH--------QRTTPKPTTPK</Hsp_qseq>
+      <Hsp_hseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEEEFSRLINSMLKKYIEDKNVDIRIIGNKKDKQPTQKTTPKPTTPKQINDGTSDKTSDTHTIKRTTPKPTTPKQINDGTSDKTSDTHTIKRTTPKPTTPK</Hsp_hseq>
+      <Hsp_midline>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEEEFSRLINSMLK+YIEDK     +   ++                 INDGTSDK         TTPKPTTPK+               +RTTPKPTTPK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>1.206</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>KEQLPNLQHQRQINDGTSDK---------TTPKPTTPKEQLPNLQH--------QRTTPKPTTPK</Hsp_qseq>
+      <Hsp_hseq>KRTTPKPTTPKQINDGTSDKTSDTHTIKRTTPKPTTPKQINDGTSDKTSDTHTIKRTTPKPTTPK</Hsp_hseq>
+      <Hsp_midline>K   P     +QINDGTSDK         TTPKPTTPK+               +RTTPKPTTPK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>emb|CAH8440485.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8440485</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>1.18404e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEEEFSRLINSMLKEYIED--KEQLPNLQH------QRQINDGTSDKTTPKPTTPKEQ</Hsp_qseq>
+      <Hsp_hseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEEEFSRLINSMLKEYIEDNKKDKHPTQKEIYKPITPKQINDGTSDKQINDGTSDKPQ</Hsp_hseq>
+      <Hsp_midline>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEEEFSRLINSMLKEYIED  K++ P  +        +QINDGTSDK     T+ K Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_018647798.1|</Hit_id>
+  <Hit_def>MEG-4 (10.3) family [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>XP_018647798</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>3.39571e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEEEFSRLINSMLK</Hsp_qseq>
+      <Hsp_hseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEED--RLINSMVK</Hsp_hseq>
+      <Hsp_midline>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINKKQFTEE+  RLINSM+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>emb|CAH8492004.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8492004</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>6.01547e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDR</Hsp_qseq>
+      <Hsp_hseq>MNIYLIGILCIVGLIISQGSTANGSPKKDK</Hsp_hseq>
+      <Hsp_midline>MNIYLIGILCIVGLIISQGSTANGSP  D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>emb|CAH8484066.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma bovis]</Hit_def>
+  <Hit_accession>CAH8484066</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.95855e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK--------KQFTEEEFSRLINS--MLKEYIEDKEQLPNLQHQRQINDGTSDKTTPKPTTPKEQLP</Hsp_qseq>
+      <Hsp_hseq>MNIYVTGILCTIGLIISQGFTATTNLPEDQLDELNIINKYLKLKGINKQITEDDLQELLNNNEIDKHLVKNNKQITEDDLQELLNNNEIDKHLVKNYTQKHNEP</Hsp_hseq>
+      <Hsp_midline>MNIY+ GILC +GLIISQG TA  +  +D+ +++N INK        KQ TE++   L+N+  + K  +++ +Q+     Q  +N+   DK   K  T K   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_051073357.1|</Hit_id>
+  <Hit_def>hypothetical protein MS3_00004573 [Schistosoma haematobium] &gt;gb|KAH9594197.1| hypothetical protein MS3_00004573 [Schistosoma haematobium] &gt;emb|CAH8440144.1| unnamed protein product [Schistosoma haematobium]</Hit_def>
+  <Hit_accession>XP_051073357</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>2.41077e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK--------KQFTEEEFSRLINS</Hsp_qseq>
+      <Hsp_hseq>MNIYVTGILCTIGLIISQGFTATTNLPEDQLDELNIINKYLKLKGINKQFTEDDLQKLLNN</Hsp_hseq>
+      <Hsp_midline>MNIY+ GILC +GLIISQG TA  +  +D+ +++N INK        KQFTE++  +L+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>emb|CAH8439945.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma haematobium]</Hit_def>
+  <Hit_accession>CAH8439945</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>2.62973e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK--------KQFTEEEFSRLINS</Hsp_qseq>
+      <Hsp_hseq>MNIYVTGILCTIGLIISQGFTATTNLPEDQLDELNIINKYLKLKGINKQFTEDDLQKLLNN</Hsp_hseq>
+      <Hsp_midline>MNIY+ GILC +GLIISQG TA  +  +D+ +++N INK        KQFTE++  +L+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>emb|CAH8441278.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma margrebowiei]</Hit_def>
+  <Hit_accession>CAH8441278</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>2.98605e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK--------KQFTEEEFSRLINS</Hsp_qseq>
+      <Hsp_hseq>MNIYIIGILCTIGLIISQGFTATTNLPEDQLDELNIINKYLKLKGINKQITEDDLQKLLNN</Hsp_hseq>
+      <Hsp_midline>MNIY+IGILC +GLIISQG TA  +  +D+ +++N INK        KQ TE++  +L+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>emb|CAH8441199.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma curassoni]</Hit_def>
+  <Hit_accession>CAH8441199</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>4.72975e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK--------KQFTEEEFSRLINS</Hsp_qseq>
+      <Hsp_hseq>MNIYVTGILCTIGLIISQGFTATTNLPEDQLDELNIINKYLKLKGINKQFTEDDLQELLNN</Hsp_hseq>
+      <Hsp_midline>MNIY+ GILC +GLIISQG TA  +  +D+ +++N INK        KQFTE++   L+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>emb|CAH8439712.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma guineensis]</Hit_def>
+  <Hit_accession>CAH8439712</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>9.78321e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK--------KQFTEEEFSRLIN</Hsp_qseq>
+      <Hsp_hseq>MNIYVTGILCTIGLIISQGFTATINLPEDQLDELNIINKYLKLKGINKQFTEDDLQELLN</Hsp_hseq>
+      <Hsp_midline>MNIY+ GILC +GLIISQG TA  +  +D+ +++N INK        KQFTE++   L+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>emb|CAH8437907.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma intercalatum] &gt;emb|CAH8439125.1| unnamed protein product [Schistosoma intercalatum]</Hit_def>
+  <Hit_accession>CAH8437907</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.53024e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK--------KQFTEEEFSRLINS</Hsp_qseq>
+      <Hsp_hseq>MNIYITGILCTIALIISQGFTATTNLPEDQLDELNIINKYLKLKGINKQFTEDDLQELLNN</Hsp_hseq>
+      <Hsp_midline>MNIY+ GILC + LIISQG TA  +  +D+ +++N INK        KQFTE++   L+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>emb|CAH8437923.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma intercalatum]</Hit_def>
+  <Hit_accession>CAH8437923</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.75847e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK--------KQFTEEEFSRLINS</Hsp_qseq>
+      <Hsp_hseq>MNIYITGILCTIALIISQGFTATTNLPEDQLDELNIINKYLKLKGINKQFTEDDLQELLNN</Hsp_hseq>
+      <Hsp_midline>MNIY+ GILC + LIISQG TA  +  +D+ +++N INK        KQFTE++   L+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>emb|CAH8481841.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma bovis]</Hit_def>
+  <Hit_accession>CAH8481841</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.49345e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK--------KQFTEEEFSRLINS</Hsp_qseq>
+      <Hsp_hseq>MNIYVTGILCTIGLIISQGFTATTNLPEDQLDELNIINKYLKLKGINKQITEDDLQELLNN</Hsp_hseq>
+      <Hsp_midline>MNIY+ GILC +GLIISQG TA  +  +D+ +++N INK        KQ TE++   L+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>emb|CAH8438975.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma mattheei]</Hit_def>
+  <Hit_accession>CAH8438975</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.75144e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK--------KQFTEEEFSRLINS</Hsp_qseq>
+      <Hsp_hseq>MYIYITGILCTIGLIISQGFTATTNLPEDQLDELNIINKYLKLKGINKQFTEDDLQNLLNN</Hsp_hseq>
+      <Hsp_midline>M IY+ GILC +GLIISQG TA  +  +D+ +++N INK        KQFTE++   L+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>emb|CAH8491909.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8491909</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>5.06606e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLD---------DRFNDVNTI-----NKKQFTEEEFSRLINSMLKEYIEDKEQLPNLQHQRQINDGTSDKTTPKPTTPKE</Hsp_qseq>
+      <Hsp_hseq>MKLVSISIIGIFSLLISQ---EYGYLIDIPNQKQYVRDKMNSLNEYLASRNIEKQFTEEEFSRLVNSMLKKHIEDKDVDIRIIENKK-DKHPTQKEIYKPITPKE</Hsp_hseq>
+      <Hsp_midline>M +  I I+ I  L+ISQ     G  +D         D+ N +N        +KQFTEEEFSRL+NSMLK++IEDK+    +   ++ +   + K   KP TPKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>emb|CAH8440581.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8440581</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>5.1288e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLD---------DRFNDVNTI-----NKKQFTEEEFSRLINSMLKEYIEDKEQLPNLQHQRQINDGTSDKTTPKPTTPKE</Hsp_qseq>
+      <Hsp_hseq>MKLVSISIIGIFSLLISQ---EYGYLIDIPNQKQYVRDKMNSLNEYLASRNIEKQFTEEEFSRLVNSMLKKHIEDKNVDIRIIENKK-DKHPTQKKIYKPITPKE</Hsp_hseq>
+      <Hsp_midline>M +  I I+ I  L+ISQ     G  +D         D+ N +N        +KQFTEEEFSRL+NSMLK++IEDK     +   ++ +   + K   KP TPKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>emb|CAH8491922.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8491922</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>5.72064e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLD---------DRFNDVNTI-----NKKQFTEEEFSRLINSMLKEYIED--KEQLPNLQHQ------RQINDGTSDK</Hsp_qseq>
+      <Hsp_hseq>MKLVSISIIGIFSLLISQ---EYGYLIDIPNQKQYVRDKMNSLNEYLASRNIEKQFTEEEFSRLVNSMLKKHIEDNKKDKHPTQKEIYKPITPKEINNGTSDK</Hsp_hseq>
+      <Hsp_midline>M +  I I+ I  L+ISQ     G  +D         D+ N +N        +KQFTEEEFSRL+NSMLK++IED  K++ P  +        ++IN+GTSDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>emb|CAH8491917.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8491917</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>5.86511e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLD---------DRFNDVNTI-----NKKQFTEEEFSRLINSMLKEYIEDKEQLPNLQHQRQINDGTSDKTTPKPTTPKE</Hsp_qseq>
+      <Hsp_hseq>MKLVSISIIGIFSLLISQEY---GYLIDIPNQKQYVRDKMNSLNEYLASRNIEKQFTEEEFSRLVNSMLKKHIEDKDVDIRIIENKK-DKHPTQKEIYKPITPKE</Hsp_hseq>
+      <Hsp_midline>M +  I I+ I  L+ISQ     G  +D         D+ N +N        +KQFTEEEFSRL+NSMLK++IEDK+    +   ++ +   + K   KP TPKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>emb|CAH8440597.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8440597</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.000229064</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLD---------DRFNDVNTI-----NKKQFTEEEFSRLINSMLKEYIEDKEQLPNLQHQRQINDGTSDKTTPKPTTPK</Hsp_qseq>
+      <Hsp_hseq>MKLVSISIIGIFSLLISQ---EYGYLIDIPNQKQYVRDKMNSLNEYLASRNIEKQFTEEEFSRLVNSMLKKHIEDKNVDIRIIENKK-DKHPTQKKIYKPITPK</Hsp_hseq>
+      <Hsp_midline>M +  I I+ I  L+ISQ     G  +D         D+ N +N        +KQFTEEEFSRL+NSMLK++IEDK     +   ++ +   + K   KP TPK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>emb|CAH8491945.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8491945</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000621017</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>KKQFTEEEFSRLINSMLKEYIEDKEQLPNLQHQRQINDGTSDKTTPKPTTPKE</Hsp_qseq>
+      <Hsp_hseq>EKQFTEEEFSRLVNSMLKKHIEDKDVDIRIIENKK-DKHPTQKEIYKPITPKE</Hsp_hseq>
+      <Hsp_midline>+KQFTEEEFSRL+NSMLK++IEDK+    +   ++ +   + K   KP TPKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>emb|CAH8491932.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8491932</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.00100813</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>KKQFTEEEFSRLINSMLKEYIEDKEQLPNLQHQRQINDGTSDKTTPKPTTPKE</Hsp_qseq>
+      <Hsp_hseq>EKQFTEEEFSRLVNSMLKKHIEDKDVDIRIIENKK-DKHPTQKEIYKPITPKE</Hsp_hseq>
+      <Hsp_midline>+KQFTEEEFSRL+NSMLK++IEDK+    +   ++ +   + K   KP TPKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>emb|CAI2723037.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma spindale]</Hit_def>
+  <Hit_accession>CAI2723037</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.0147391</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK</Hsp_qseq>
+      <Hsp_hseq>MNMYITGILCTICLIISQGFTATTNLPEDQLNERNIINK</Hsp_hseq>
+      <Hsp_midline>MN+Y+ GILC + LIISQG TA  +  +D+ N+ N INK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>emb|CAI2723035.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma spindale]</Hit_def>
+  <Hit_accession>CAI2723035</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0232843</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK</Hsp_qseq>
+      <Hsp_hseq>MNMYITGILCTICLIISQGFTATTNLPEDQLNERNIINK</Hsp_hseq>
+      <Hsp_midline>MN+Y+ GILC + LIISQG TA  +  +D+ N+ N INK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>emb|CAI2723036.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma spindale]</Hit_def>
+  <Hit_accession>CAI2723036</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0248358</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRFNDVNTINK</Hsp_qseq>
+      <Hsp_hseq>MNMYITGILCTICLIISQGFTATTNLPEDQLNERNIINK</Hsp_hseq>
+      <Hsp_midline>MN+Y+ GILC + LIISQG TA  +  +D+ N+ N INK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_046555071.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: uncharacterized protein LOC124264362 [Haliotis rubra]</Hit_def>
+  <Hit_accession>XP_046555071</Hit_accession>
+  <Hit_len>893</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.590519</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>330</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TSDKTTPKPTTPKEQLPN-LQHQRTTPKPTTPKA</Hsp_qseq>
+      <Hsp_hseq>TPKATTPKPTTPKATTPKPTTPKATTPKPTTPKA</Hsp_hseq>
+      <Hsp_midline>T   TTPKPTTPK   P     + TTPKPTTPKA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.590519</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TSDKTTPKPTTPKEQLPN-LQHQRTTPKPTTPKA</Hsp_qseq>
+      <Hsp_hseq>TPKATTPKPTTPKATTPKPTTPKATTPKPTTPKA</Hsp_hseq>
+      <Hsp_midline>T   TTPKPTTPK   P     + TTPKPTTPKA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.590519</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>350</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TSDKTTPKPTTPKEQLPN-LQHQRTTPKPTTPKA</Hsp_qseq>
+      <Hsp_hseq>TPKATTPKPTTPKATTPKPTTPKATTPKPTTPKA</Hsp_hseq>
+      <Hsp_midline>T   TTPKPTTPK   P     + TTPKPTTPKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_032400298.1|</Hit_id>
+  <Hit_def>zonadhesin-like [Etheostoma spectabile]</Hit_def>
+  <Hit_accession>XP_032400298</Hit_accession>
+  <Hit_len>2263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.745231</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>435</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TSDKTTPKPTTPKEQLPNLQHQRTTPKPTTP</Hsp_qseq>
+      <Hsp_hseq>TPGPTTPKPSTPGPSTPKHQPGRTTPKPSTP</Hsp_hseq>
+      <Hsp_midline>T   TTPKP+TP    P  Q  RTTPKP+TP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|KAJ1476509.1|</Hit_id>
+  <Hit_def>Endonuclease/exonuclease/phosphatase, partial [Cryptophyta sp. CCMP2293]</Hit_def>
+  <Hit_accession>KAJ1476509</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.826422</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>QINDG--TSDKTTPKPTTPKEQLPNLQHQRTTPKPTTPKA</Hsp_qseq>
+      <Hsp_hseq>QLDDGEATPKPQTPKPQTPKRGDPQTPNPKTTPKPQTPRG</Hsp_hseq>
+      <Hsp_midline>Q++DG  T    TPKP TPK   P   + +TTPKP TP+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_053628163.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: DNA ligase 3-like [Cherax quadricarinatus]</Hit_def>
+  <Hit_accession>XP_053628163</Hit_accession>
+  <Hit_len>851</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>3.465</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SRLINSMLKEYIEDKEQLPNLQHQ-----RQINDGTSDKTTPKPTTPKEQLPNLQHQRTTPKPTTPK</Hsp_qseq>
+      <Hsp_hseq>ARATTKKIEDPVEDIDGWENLEEEDKKKIRALIDDLQNNITPKKATPKKQTPNLQNN-TTPKKATPK</Hsp_hseq>
+      <Hsp_midline>+R     +++ +ED +   NL+ +     R + D   +  TPK  TPK+Q PNLQ+  TTPK  TPK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>emb|CAX72670.1|</Hit_id>
+  <Hit_def>putative epiplakin 1 [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>CAX72670</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>9.30785</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>MNIYLIGILCIVGLIISQGSTANGSPLDDRF---------NDVNTINK--------KQFTEEEFSRLINSMLKEYIEDK</Hsp_qseq>
+      <Hsp_hseq>MKINTLGIICLVSLYISQAYTHDVD-LSDQLSSSQKDYIKNKIRLLNDYFKSKGIDKQFTENDIYDLLNTRMNKHIQDK</Hsp_hseq>
+      <Hsp_midline>M I  +GI+C+V L ISQ  T +   L D+          N +  +N         KQFTE +   L+N+ + ++I+DK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>724122606</Statistics_db-num>
+      <Statistics_db-len>638475476</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

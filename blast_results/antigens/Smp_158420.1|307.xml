@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_122015</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>58</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_122015</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>58</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_018647485.1|</Hit_id>
+  <Hit_def>cathepsin B-like peptidase (C01 family) [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>XP_018647485</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>1.94112e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_018647482.1|</Hit_id>
+  <Hit_def>cathepsin B-like peptidase (C01 family) [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>XP_018647482</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>6.76649e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>emb|CAH8429328.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8429328</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>1.17483e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>emb|CAH8497667.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8497667</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>1.35866e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGCEGGFPALAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDG EGGFPALAWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>emb|CAH8497706.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8497706</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>2.21815e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>MSDRSCIQSGGKQNVELSAVDLLSCCESCGLGCEGGFLGPAWDYWVEEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>MSDRSCIQSGGKQNVELSAVDLLSCCE CG G EGGF   AWDYWV+EGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|4I07|A</Hit_id>
+  <Hit_def>Chain A, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>4I07_A</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>6.77266e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCESCGLGCEGGILGPAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCE CG G EGG    AWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|3QSD|A</Hit_id>
+  <Hit_def>Chain A, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|3S3Q|A Chain A, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|3S3R|A Chain A, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|3S3R|B Chain B, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|3S3R|C Chain C, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|5OGQ|A Chain A, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|5OGQ|B Chain B, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|5OGQ|C Chain C, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|5OGR|A Chain A, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|5OGR|B Chain B, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|5OGR|C Chain C, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|6YI7|A Chain A, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|8CC2|AAA Chain AAA, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|8CCU|AAA Chain AAA, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|8CD9|AAA Chain AAA, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>3QSD_A</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>7.06889e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCESCGLGCEGGILGPAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCE CG G EGG    AWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>emb|CAH8497687.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8497687</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.00935e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCESCGFGCEGGFLGPAWDYWVEEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCE CG G EGGF   AWDYWV+EGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|4I05|A</Hit_id>
+  <Hit_def>Chain A, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>4I05_A</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>1.10323e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCESCGLGCEGGILGPAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCE CG G EGG    AWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>dbj|BAB20264.1|</Hit_id>
+  <Hit_def>cathepsin B, partial [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>BAB20264</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>1.50847e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGGQSAELSALDLISCCEDCGDGCQGGFPGVAWDYWVTQGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG Q+ ELSA+DL+SCCE CGDG +GGFP +AWDYWV +GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|4I04|A</Hit_id>
+  <Hit_def>Chain A, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|4I04|B Chain B, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|4I04|C Chain C, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;pdb|4I04|D Chain D, Cathepsin B-like peptidase (C01 family) [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>4I04_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.59058e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCESCGLGCEGGILGPAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCE CG G EGG    AWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_018647489.1|</Hit_id>
+  <Hit_def>cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;emb|CAD44624.1| cathepsin B1 isotype 1 [Schistosoma mansoni] &gt;emb|CAH8290703.1| unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>XP_018647489</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.98644e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCESCGLGCEGGILGPAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCE CG G EGG    AWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|AAW25892.1|</Hit_id>
+  <Hit_def>unknown [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>AAW25892</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>5.48236e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRICIQSGGKQSVELSAIDLISCCENCGSGCDGGFPGPAWDYWVSHGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR CIQSGGKQ+VELSA+DL+SCCE+CG G +GGFP  AWDYWV  GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>emb|CAD44625.1|</Hit_id>
+  <Hit_def>cathepsin B1 isotype 2 [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>CAD44625</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>7.8978e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCESCGLGCEGGILGPAWDFWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCE CG G EGG    AWD+WVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_018647483.1|</Hit_id>
+  <Hit_def>cathepsin B-like peptidase (C01 family) [Schistosoma mansoni] &gt;emb|CAH8429347.1| unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>XP_018647483</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>8.70049e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLSCCESCGLGCEGGILGPAWDFWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLLSCCE CG G EGG    AWD+WVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AAW27205.1|</Hit_id>
+  <Hit_def>unknown [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>AAW27205</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.2431e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCEDCGDGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCCE CGDG +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>emb|CAH8429639.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma mattheei]</Hit_def>
+  <Hit_accession>CAH8429639</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>1.25059e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRTCIQSRGRQSVELSAVDLMSCCSDCGFGCEGGFPGRAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR+CIQS G+Q+VELSAVDL+SCC  CG G EGGFP  AWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AAW27462.1|</Hit_id>
+  <Hit_def>unknown [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>AAW27462</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.67108e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCEDCGDGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCCE CGDG +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|KAH8856142.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>KAH8856142</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>1.68581e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRICIQSGGKQSVELSAIDLISCCENCGSGCDGGFPGPAWDYWVSHGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR CIQSGGKQ+VELSA+DL+SCCE+CG G +GGFP  AWDYWV  GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>emb|CAH8430253.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma margrebowiei]</Hit_def>
+  <Hit_accession>CAH8430253</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>1.75022e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRTCIQSRGRQSVELSAVDLMSCCSDCGFGCEGGFPGRAWDYWVEEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR+CIQS G+Q+VELSAVDL+SCC  CG G EGGFP  AWDYWV+EGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|P25792.1|</Hit_id>
+  <Hit_def>RecName: Full=Cathepsin B-like cysteine proteinase; AltName: Full=Antigen Sm31; Flags: Precursor [Schistosoma mansoni] &gt;gb|AAA29865.1| cathepsin B [Schistosoma mansoni]</Hit_def>
+  <Hit_accession>P25792</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.89883e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLLTCCESCGLGCEGGILGPAWDYWVKEGIVTASSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDLL+CCE CG G EGG    AWDYWVKEGIVT SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>emb|CAH8497696.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma rodhaini]</Hit_def>
+  <Hit_accession>CAH8497696</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>2.29698e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRSCIQSGGKQNVELSAVDLMSCCESCGLGCEGGFLGPAWDYWVEVGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDRSCIQSGGKQNVELSAVDL+SCCE CG G EGGF   AWDYWV+ GIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>emb|CAH8430287.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma margrebowiei]</Hit_def>
+  <Hit_accession>CAH8430287</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>2.88645e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRTCIQSRGRQSVELSAVDLMSCCSDCGFGCEGGFPGRAWDYWVEEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR+CIQS G+Q+VELSAVDL+SCC  CG G EGGFP  AWDYWV+EGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|TNN05072.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase isoform 1 [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>TNN05072</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>2.97946e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCKDCGDGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCC+ CGDG +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>emb|CAH8430303.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma margrebowiei]</Hit_def>
+  <Hit_accession>CAH8430303</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>4.09609e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>MSDRTCIQSRGRQSVELSAVDLMSCCSDCGFGCEGGFPGRAWDYWVEEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>MSDR+CIQS G+Q+VELSAVDL+SCC  CG G EGGFP  AWDYWV+EGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AAW24925.1|</Hit_id>
+  <Hit_def>unknown [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>AAW24925</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>4.77689e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCEDCGDGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCCE CGDG +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>emb|VDP68388.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma mattheei]</Hit_def>
+  <Hit_accession>VDP68388</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>4.81404e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>MSDRTCIQSRGRQSVELSAVDLMSCCSDCGFGCEGGFPGRAWDYWVEEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>MSDR+CIQS G+Q+VELSAVDL+SCC  CG G EGGFP  AWDYWV+EGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>emb|CAH8430271.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma margrebowiei]</Hit_def>
+  <Hit_accession>CAH8430271</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>5.50289e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRTCIQSRGRQSVELSAVDLMSCCSDCGFGCEGGFPGRAWDYWVEEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR+CIQS G+Q+VELSAVDL+SCC  CG G EGGFP  AWDYWV+EGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pir|S31909|</Hit_id>
+  <Hit_def>cathepsin B-like cysteine proteinase (EC 3.4.22.-) - fluke (Schistosoma japonicum) [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>S31909</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>6.04471e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRICIQSGGKQSVELSAIDLISCCENCGSGCDGGFPGPAWDYWVSHGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR CIQSGGKQ+VELSA+DL+SCCE+CG G +GGFP  AWDYWV  GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KAH8856102.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum] &gt;gb|KAH8856104.1| Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>KAH8856102</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>6.13404e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRICIQSGGKQSVELSAIDLISCCENCGSGCDGGFPGPAWDYWVSHGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR CIQSGGKQ+VELSA+DL+SCCE+CG G +GGFP  AWDYWV  GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|KAH8856144.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>KAH8856144</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>6.39504e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRICIQSGGKQSVELSAIDLISCCENCGSGCDGGFPGPAWDYWVSHGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR CIQSGGKQ+VELSA+DL+SCCE+CG G +GGFP  AWDYWV  GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|KAH8856140.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>KAH8856140</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>6.46201e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRICIQSGGKQSVELSAIDLISCCENCGSGCDGGFPGPAWDYWVSHGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR CIQSGGKQ+VELSA+DL+SCCE+CG G +GGFP  AWDYWV  GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|TNN15178.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>TNN15178</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>6.73695e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRICIQSGGKQSVELSAIDLISCCENCGSGCDGGFPGPAWDYWVSHGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR CIQSGGKQ+VELSA+DL+SCCE+CG G +GGFP  AWDYWV  GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|KAH8856141.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>KAH8856141</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>7.02358e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRICIQSGGKQSVELSAIDLISCCENCGSGCDGGFPGPAWDYWVSHGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR CIQSGGKQ+VELSA+DL+SCCE+CG G +GGFP  AWDYWV  GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>emb|VDP60124.1|</Hit_id>
+  <Hit_def>unnamed protein product, partial [Schistosoma curassoni]</Hit_def>
+  <Hit_accession>VDP60124</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>7.46118e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRTCIQSRGRQSVELSAVDLVSCCSDCGFGCDGGFPGRAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR+CIQS G+Q+VELSAVDL+SCC  CG G +GGFP  AWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>emb|CAX70255.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase precursor [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>CAX70255</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>7.47652e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRICIQSGGKQSVELSAIDLISCCENCGSGCDGGFPGPAWDYWVSHGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR CIQSGGKQ+VELSA+DL+SCCE+CG G +GGFP  AWDYWV  GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>emb|CAX70256.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase precursor [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>CAX70256</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>7.79457e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRICIQSGGKQSVELSAIDLISCCENCGSGCDGGFPGPAWDYWVSHGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR CIQSGGKQ+VELSA+DL+SCCE+CG G +GGFP  AWDYWV  GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|TNN05070.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase isoform 2 [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>TNN05070</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>8.04318e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCKDCGDGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCC+ CGDG +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|KAH8856091.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>KAH8856091</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>8.64801e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGGQSAELSALDLISCCEDCGDGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG Q+ ELSA+DL+SCCE CGDG +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_051072918.1|</Hit_id>
+  <Hit_def>hypothetical protein MS3_00003890 [Schistosoma haematobium] &gt;gb|KAH9593622.1| hypothetical protein MS3_00003890 [Schistosoma haematobium]</Hit_def>
+  <Hit_accession>XP_051072918</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.17331e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>MSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>MSDRTCIQSRGRQSVELSAVDLMSCCSDCGFGCDGGFLGHAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>MSDR+CIQS G+Q+VELSAVDL+SCC  CG G +GGF   AWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>emb|CAH8429589.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma curassoni]</Hit_def>
+  <Hit_accession>CAH8429589</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.33849e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRTCIQSRGRQSVELSAVDLVSCCSDCGFGCDGGFPGPAWDYWVEEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR+CIQS G+Q+VELSAVDL+SCC  CG G +GGFP  AWDYWV+EGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|AAW27892.1|</Hit_id>
+  <Hit_def>unknown [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>AAW27892</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.60173e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCEDCGQGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCCE CG G +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|TNN21126.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase isoform 1 [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>TNN21126</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>1.63225e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCEDCGDGCQGGFPGVAWDYWVTQGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCCE CGDG +GGFP +AWDYWV +GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|TNN21129.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>TNN21129</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>1.66658e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCEDCGDGCQGGFPGVAWDYWVTQGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCCE CGDG +GGFP +AWDYWV +GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|TNN05071.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase isoform 3 [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>TNN05071</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>1.71942e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCKDCGDGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCC+ CGDG +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|TNN04783.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>TNN04783</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>1.75558e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCKDCGDGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCC+ CGDG +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|KAH8856076.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>KAH8856076</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.78718e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCKDCGDGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCC+ CGDG +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_012801037.3|</Hit_id>
+  <Hit_def>hypothetical protein MS3_00010010 [Schistosoma haematobium] &gt;gb|KAH9593623.1| hypothetical protein MS3_00010010 [Schistosoma haematobium]</Hit_def>
+  <Hit_accession>XP_012801037</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.78966e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRTCIQSRGRQSVELSAVDLMSCCSDCGFGCDGGFLGHAWDYWVKEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR+CIQS G+Q+VELSAVDL+SCC  CG G +GGF   AWDYWVKEGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|KAH8856089.1|</Hit_id>
+  <Hit_def>Cathepsin B-like cysteine proteinase [Schistosoma japonicum]</Hit_def>
+  <Hit_accession>KAH8856089</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.80595e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMTDRICIQSGGQQSAELSALDLISCCKDCGDGCQGGFPGVAWDYWVKRGIVTGGSKE</Hsp_hseq>
+      <Hsp_midline>AM+DR CIQSGG+Q+ ELSA+DL+SCC+ CGDG +GGFP +AWDYWVK GIVTG SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>emb|CAH8429621.1|</Hit_id>
+  <Hit_def>unnamed protein product [Schistosoma curassoni]</Hit_def>
+  <Hit_accession>CAH8429621</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>2.0967e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AMSDRSCIQSGGKQNVELSAVDLLSCCEHCGDGFEGGFPALAWDYWVKEGIVTGSSKE</Hsp_qseq>
+      <Hsp_hseq>AMSDRTCIQSRGRQSVELSAVDLVSCCSDCGFGCDGGFPGPAWDYWVEEGIVTGSSKE</Hsp_hseq>
+      <Hsp_midline>AMSDR+CIQS G+Q+VELSAVDL+SCC  CG G +GGFP  AWDYWV+EGIVTGSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>724122606</Statistics_db-num>
+      <Statistics_db-len>638475476</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
